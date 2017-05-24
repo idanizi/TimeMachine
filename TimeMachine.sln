@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeMachine.Service", "Time
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeMachine.CLI", "TimeMachine.CLI\TimeMachine.CLI.csproj", "{5AB9D612-5AD8-4B9E-B8AB-F36E1A9DE95F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeMachine.Data", "TimeMachine.Data\TimeMachine.Data.csproj", "{D4155FB8-56CC-4BBD-AFF1-B283CBEAAC19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeMachine.Domain.Tests", "TimeMachine.Domain.Tests\TimeMachine.Domain.Tests.csproj", "{62B22C54-C9E1-46D3-9934-31A11149DE38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeMachine.Service.Tests", "TimeMachine.Service.Tests\TimeMachine.Service.Tests.csproj", "{CC80AFCE-6DF5-4A43-B54F-CB0E1F874544}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +33,18 @@ Global
 		{5AB9D612-5AD8-4B9E-B8AB-F36E1A9DE95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AB9D612-5AD8-4B9E-B8AB-F36E1A9DE95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AB9D612-5AD8-4B9E-B8AB-F36E1A9DE95F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4155FB8-56CC-4BBD-AFF1-B283CBEAAC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4155FB8-56CC-4BBD-AFF1-B283CBEAAC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4155FB8-56CC-4BBD-AFF1-B283CBEAAC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4155FB8-56CC-4BBD-AFF1-B283CBEAAC19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62B22C54-C9E1-46D3-9934-31A11149DE38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62B22C54-C9E1-46D3-9934-31A11149DE38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62B22C54-C9E1-46D3-9934-31A11149DE38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62B22C54-C9E1-46D3-9934-31A11149DE38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC80AFCE-6DF5-4A43-B54F-CB0E1F874544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC80AFCE-6DF5-4A43-B54F-CB0E1F874544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC80AFCE-6DF5-4A43-B54F-CB0E1F874544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC80AFCE-6DF5-4A43-B54F-CB0E1F874544}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

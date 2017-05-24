@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A7374089-9298-4D16-8218-4E59C0BCAF40}</ProjectGuid>
+    <ProjectGuid>{D4155FB8-56CC-4BBD-AFF1-B283CBEAAC19}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TimeMachine.Domain</RootNamespace>
-    <AssemblyName>TimeMachine.Domain</AssemblyName>
+    <RootNamespace>TimeMachine.Data</RootNamespace>
+    <AssemblyName>TimeMachine.Data</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,22 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\CalendarController.cs" />
+    <Compile Include="Exceptions\TimeMachineException.cs" />
+    <Compile Include="Models\Calendar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
-  <ItemGroup>
-    <None Include="app.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\TimeMachine.Data\TimeMachine.Data.csproj">
-      <Project>{d4155fb8-56cc-4bbd-aff1-b283cbeaac19}</Project>
-      <Name>TimeMachine.Data</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\TimeMachine.Service\TimeMachine.Service.csproj">
-      <Project>{3b98b320-a6a6-4e26-86dc-be376753aac0}</Project>
-      <Name>TimeMachine.Service</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

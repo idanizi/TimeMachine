@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TimeMachine.Service.Services
+namespace TimeMachine.Service.Agents
 {
-    class IService
+    public class IAgent
     {
     }
 }
